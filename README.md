@@ -7,7 +7,7 @@ Oculus Utilities 1.3.0 (compatible with runtime)
 Oculus Runtime 0.8.0.0(eliminated the need for directtorift.exe)
 
 ------------------------------------------------------------------
-Test:
+# Test:
 
 1.	Plug in USB hub, Oculus(headset and tracker), and Mouse
 2.	Open Oculus Configuration Utility, Click "Advanced", Click "Disable Health and Safety Warning"
@@ -20,7 +20,7 @@ Test:
 	
 
 ------------------------------------------------------------------
-Graphic Outputs(Octave):
+# Graphic Outputs(Octave):
 *On the graphics laptop generating outputs can be a little slow right after starting Octave, but will be much faster after keeping it open for a while.
 
 1.	Open Octave and click on Editor at the bottom middle

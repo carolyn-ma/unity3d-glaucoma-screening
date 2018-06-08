@@ -1,0 +1,30 @@
+%3D Plot
+fname = uigetfile();
+fid = fopen(fname, 'r');
+f =textscan(fopen(fname,'r'), '%f\t%f\t%f\n', 'HeaderLines',5);
+x = f{1};
+y = f{2};
+z = f{3};l = length(x);
+colormap jet;
+[xi,yi] = meshgrid(-30:0.1:30, -30:0.1:30);
+zi = griddata(x,y,z,xi,yi);
+plot3(x,y,zeros(l,1), '*r');
+hold on;
+axis([-30, 30, -30, 30, 0, 4]);
+grid on;
+stem3(x,y,z,'fill','markeredgecolor','k','markerfacecolor','w','r');
+surf(xi,yi,zi);
+shading interp;
+xlabel ("Horizontal");
+caxis([0,4]);
+colorbar ("EastOutside");
+%text(-30, -43, 'Nasal','HorizontalAlignment','center', 'BackgroundColor', 'none');
+%text(30, -43, 'Temporal','HorizontalAlignment','center', 'BackgroundColor', 'none');
+ylabel ("Perpendicular");
+zlabel ("Light Intensities");
+title ("3-D Visual Field Plot");
+%view(0, 90); 
+% essentially equals the heatmap 
+view(340, 45);
+hold off;
+fclose(fname);

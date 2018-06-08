@@ -1,4 +1,3 @@
-------------------------------------------------------------------
 # Specs:
 
 Unity 5.3.4p4 (most updated that is compatible with runtime)
@@ -6,7 +5,6 @@ Oculus Utilities 1.3.0 (compatible with runtime)
 Oculus Runtime 0.8.0.0(eliminated the need for directtorift.exe)
 *FOVE's new unity plugin only supports Unity 5.4 or later.
 
-------------------------------------------------------------------
 # Test:
 
 1.	Plug in USB hub, Oculus(headset and tracker), and Mouse
@@ -19,7 +17,6 @@ Oculus Runtime 0.8.0.0(eliminated the need for directtorift.exe)
 8. 	Output text file is under /Results folder with test date and time. Feel free to rename with patient names.
 	
 
-------------------------------------------------------------------
 # Graphic Outputs(Octave):
 *On the graphics laptop generating outputs can be a little slow right after starting Octave, but will be much faster after keeping it open for a while.
 

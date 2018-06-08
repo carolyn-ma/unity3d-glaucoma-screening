@@ -1,10 +1,10 @@
-*Please do not install newer versions of Unity since it will overwrite the older version, which works with Oculus.
-*FOVE's new unity plugin only supports Unity 5.4 or later.
-*Can install Oculus runtimes earlier than 1.3 if found any.
+------------------------------------------------------------------
+# Specs:
 
 Unity 5.3.4p4 (most updated that is compatible with runtime)
 Oculus Utilities 1.3.0 (compatible with runtime)
 Oculus Runtime 0.8.0.0(eliminated the need for directtorift.exe)
+*FOVE's new unity plugin only supports Unity 5.4 or later.
 
 ------------------------------------------------------------------
 # Test:
